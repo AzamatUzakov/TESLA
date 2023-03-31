@@ -1,0 +1,507 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contener {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img {
+
+    margin: 0 auto;
+    background-image: url(../img/photo_2023-03-29_23-10-45.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    transition: 03s ease;
+    scale: 1, 5;
+    position: relative;
+    animation-duration: 0.7s;
+    border: 0;
+}
+
+
+.active_one {
+    background-image: url(../img/d\ 1.png);
+    width: 143px;
+    height: 143px;
+    bottom: 28%;
+    right: 20%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: aza .25s steps(6) infinite;
+    display: none;
+
+
+}
+
+.active_two {
+    background-image: url(../img/d\ 1.png);
+    width: 143px;
+    height: 143px;
+    bottom: 28%;
+    left: 18%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: aza .25s steps(6) infinite;
+    display: none;
+
+
+}
+
+
+.diskcho_one_nuzda{
+    background-image: url(../img/d\ 1.png);
+    width: 135px;
+    height: 135px;
+    bottom: 29%;
+    left: 18%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: aza .25s steps(6) infinite;
+    display: block;
+}
+
+.diskcho_two_nuzda{
+    background-image: url(../img/d\ 1.png);
+    width: 136px;
+    height: 136px;
+    bottom: 29%;
+    right: 20%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: aza .25s steps(6) infinite;
+    display: block;
+
+}
+
+
+@keyframes aza {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+
+}
+
+.flex_box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 0px;
+}
+
+.box_one {
+    font-weight: 500;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.box_one h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+
+}
+
+
+.box_two {
+    font-weight: 500;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.box_two h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+}
+
+
+
+/* button {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 100%;
+    font-size: 1px;
+} */
+
+.black {
+
+    background-color: black;
+
+}
+
+.white {
+    background-color: rgb(228, 228, 228);
+    color: rgb(228, 228, 228);
+
+}
+
+.bejivi {
+    color: rgb(255, 212, 156);
+    background-color: rgb(255, 212, 156);
+}
+
+.box_flex {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 55px;
+}
+
+.box_button p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+}
+
+.mayda p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+
+.mayda h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+
+.mayda {
+    display: flex;
+    gap: 65px;
+}
+
+.fl_one {
+    gap: 20px;
+    display: flex;
+}
+
+.button_flex button {
+    width: 20px;
+    margin-top: 10px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+
+    color: black;
+
+}
+
+.fl_two {
+    display: flex;
+    gap: 20px;
+}
+
+
+.fl_three {
+    display: flex;
+    gap: 20px;
+}
+
+#one {
+    rotate: 90deg;
+    text-align: center;
+    
+}
+
+#two {
+    rotate: 270deg;
+}
+
+.one {
+    rotate: 90deg;
+}
+
+.two {
+    rotate: 270deg;
+}
+
+.pech {
+    rotate: 90deg;
+}
+
+.conditioner {
+    rotate: 270deg;
+}
+
+.m_flex {
+    display: flex;
+    justify-content: end;
+
+}
+
+.modal_button button {
+    margin: 40px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    font-size: 28px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    height: 50px;
+    background-color: #707070;
+    color: white;
+}
+
+
+
+.modal {
+    display: none;
+    padding: 0px 0 0 60px;
+
+    h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    width: 500px;
+    height: 800px;
+    background: #000;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    font-family: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.7s ease;
+    opacity: 0;
+    animation-duration: 0.7s;
+
+}
+
+.modal_bg {
+
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    display: none;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.461);
+    backdrop-filter: blur(10px);
+    transition: 0.7s ease;
+    opacity: 0;
+    animation-duration: 0.7s;
+    animation-name: modal;
+
+
+}
+
+@keyframes modal {
+    from {
+        right: -600px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.close {
+    color: white;
+    font-size: 70px;
+    background-color: #000;
+    border: 0;
+    margin-bottom: 100px;
+    margin-left: 370px;
+}
+
+.scale {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background-color: #000;
+    top: 30%;
+    right: 37%;
+    opacity: 0  ;
+
+
+}
+
+.promo {
+    display: block;
+}
+
+.promo_salon {
+    display: none;
+    transition: 2s ease;
+    animation-duration: 0.7s;
+    justify-content: center;
+    margin: 0% auto;
+    width: 1500px;
+    scale: 1;
+}
+
+.img_salon {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.blockee {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    top: 50%;
+    right: 50%;
+    opacity: 0;
+
+}
+
+.photo {
+    background-image: url(../img/salon.png);
+    width: 1000px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+.contener {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img_one {
+
+    margin: 0 auto;
+    background-image: url(../img/salon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 600px;
+    transition: .4s ease;
+}
+
+
+.flex_box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.box_one {
+    font-weight: 500;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.box_one h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+
+}
+
+
+.box_two {
+    font-weight: 500;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.box_two h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+}
+
+
+
+button {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 100%;
+    font-size: 1px;
+}
+
+.black {
+
+    background-color: black;
+
+}
+
+.white {
+    background-color: rgb(228, 228, 228);
+    color: rgb(228, 228, 228);
+    
+}
+
+.bejivi {
+    color: rgb(255, 212, 156);
+    background-color: rgb(255, 212, 156);
+}
+
+.box_flex{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 55px;
+}
+
+.box_button p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+}
+.mayda p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 10px;
+}
